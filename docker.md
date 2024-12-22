@@ -35,7 +35,7 @@ docker run -p 7865:7865 -v creatify-data:/content/data -it \
 -e path_clip_vision=/content/data/models/clip_vision/ \
 -e path_creatify_expansion=/content/data/models/prompt_expansion/creatify_expansion/ \
 -e path_outputs=/content/app/outputs/ \
-ghcr.io/lllyasviel/creatify
+ghcr.io/anands3210/creatify
 ```
 ### Running with Podman
 
@@ -56,7 +56,7 @@ podman run -p 7865:7865 -v creatify-data:/content/data -it \
 -e path_clip_vision=/content/data/models/clip_vision/ \
 -e path_creatify_expansion=/content/data/models/prompt_expansion/creatify_expansion/ \
 -e path_outputs=/content/app/outputs/ \
-ghcr.io/lllyasviel/creatify
+ghcr.io/anands3210/creatify
 ```
 
 When you see the message  `Use the app with http://0.0.0.0:7865/` in the console, you can access the URL in your browser.
